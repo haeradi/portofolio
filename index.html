@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abdul Rahmadan Haeradi — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <!-- Background glow -->
+  <div class="bg-glow"></div>
+
+  <!-- Navbar -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#beranda" class="logo">
+        <span class="logo-mark">AR</span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#beranda" class="active">Beranda</a>
+        <a href="#tentang">Tentang Saya</a>
+        <a href="#pengalaman">Pengalaman</a>
+        <a href="#keahlian">Keahlian</a>
+        <a href="#sertifikasi">Sertifikasi</a>
+        <a href="#proyek">Proyek</a>
+        <a href="#kontak">Kontak</a>
+      </nav>
+      <a href="assets/cv.pdf" download="CV-Abdul-Rahmadan-Haeradi.pdf" class="btn btn-cv">
+        <i data-lucide="download"></i> Download CV
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <i data-lucide="menu"></i>
+      </button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="card profile-card" id="tentang">
+        <div class="profile-avatar">
+          <div class="avatar-ring"></div>
+          <img src="assets/profile.jpg" alt="Abdul Rahmadan Haeradi" onerror="this.onerror=null;this.src='https://i.pravatar.cc/300?img=12'" />
+        </div>
+        <h2 class="profile-name">Abdul Rahmadan Haeradi</h2>
+        <ul class="profile-info">
+          <li><i data-lucide="mail"></i> abdulradi17@gmail.com</li>
+          <li><i data-lucide="phone"></i> 085820133306</li>
+          <li><i data-lucide="map-pin"></i> Kab. Penajam Paser Utara<br/>Kec. Penajam Kel. Sungai Parit.</li>
+        </ul>
+        <hr class="divider" />
+        <h3 class="section-mini-title">TENTANG SAYA</h3>
+        <p class="profile-about">
+          Lulusan S1 Sistem Informasi dari STMIK Balikpapan dengan minat dan
+          kompetensi di bidang pengembangan website, analisis data, serta
+          teknologi informasi. Memiliki kemampuan dalam mengintegrasikan
+          teknologi untuk menghasilkan analisis yang efektif dan solutif.
+          Adaptif terhadap perkembangan teknologi terbaru, memiliki semangat
+          belajar yang tinggi, serta mampu bekerja secara individu maupun tim
+          dalam memberikan solusi terbaik untuk mendukung kebutuhan bisnis dan
+          pengelolaan informasi.
+        </p>
+        <p class="signature">Abdul Haeradi</p>
+      </div>
+
+      <div class="card" id="kekuatan-card">
+        <h3 class="card-title"><i data-lucide="bar-chart-3"></i> KEKUATAN UTAMA</h3>
+        <ul class="strength-list">
+          <li><i data-lucide="line-chart"></i> Analisis Data</li>
+          <li><i data-lucide="lightbulb"></i> Problem Solving</li>
+          <li><i data-lucide="users"></i> Manajemen Tim</li>
+          <li><i data-lucide="award"></i> Leadership</li>
+          <li><i data-lucide="megaphone"></i> Komunikasi & Public Speaking</li>
+          <li><i data-lucide="shield-check"></i> Disiplin & Bertanggung Jawab</li>
+        </ul>
+      </div>
+
+    </aside>
+
+    <!-- Content -->
+    <section class="content">
+      <!-- HERO -->
+      <section class="hero" id="beranda">
+        <div class="hero-text">
+          <p class="hero-greet">Halo, Saya <span class="wave">👋</span></p>
+          <h1 class="hero-title">Abdul Rahmadan <span class="grad">Haeradi</span></h1>
+          <div class="hero-tags">Information System | Web Enthusiast | Data Analyzer</div>
+          <p class="hero-desc">
+            Memiliki pengalaman di bidang kepemimpinan (leadership) dengan
+            kemampuan analisis data, komunikasi interpersonal, serta manajemen
+            tim yang efektif. Terbiasa memimpin tim secara terstruktur untuk
+            mencapai target kerja, meningkatkan produktivitas, dan memberikan
+            solusi yang tepat, inovatif, serta berorientasi pada hasil.
+          </p>
+          <div class="hero-stats">
+            <div class="stat">
+              <div class="stat-icon"><i data-lucide="briefcase"></i></div>
+              <div class="stat-num">8+</div>
+              <div class="stat-label">Tahun Pengalaman</div>
+            </div>
+            <div class="stat">
+              <div class="stat-icon"><i data-lucide="users"></i></div>
+              <div class="stat-num">11+</div>
+              <div class="stat-label">Tim yang Dipimpin</div>
+            </div>
+            <div class="stat">
+              <div class="stat-icon"><i data-lucide="target"></i></div>
+              <div class="stat-num">100+</div>
+              <div class="stat-label">Survei & Analisis Berhasil</div>
+            </div>
+            <div class="stat">
+              <div class="stat-icon"><i data-lucide="medal"></i></div>
+              <div class="stat-num">6</div>
+              <div class="stat-label">Sertifikasi & Pelatihan</div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-illustration" aria-hidden="true">
+          <div class="orb orb-1"></div>
+          <div class="orb orb-2"></div>
+          <div class="laptop">
+            <div class="screen">
+              <div class="code-line w-60"></div>
+              <div class="code-line w-80"></div>
+              <div class="code-line w-40"></div>
+              <div class="code-line w-70"></div>
+              <div class="code-line w-50"></div>
+              <div class="code-line w-65"></div>
+            </div>
+            <div class="base"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PENDIDIKAN -->
+      <section class="card section" id="pendidikan">
+        <h2 class="section-title"><i data-lucide="graduation-cap"></i> PENDIDIKAN</h2>
+        <div class="edu">
+          <div class="edu-logo"><img src="assets/stmik.png" alt="STMIK Borneo Balikpapan" onerror="this.replaceWith(Object.assign(document.createElement('span'),{textContent:'STMIK'}))"></div>
+          <div>
+            <h3 class="exp-role">STMIK Borneo Balikpapan</h3>
+            <p class="exp-sub">Sarjana Sistem Informasi · IPK 3.10<br/>2017 – 2021</p>
+          </div>
+        </div>
+        <h4 class="skill-cat">Tugas Akhir</h4>
+        <p class="exp-desc">
+          Analisis Aplikasi MFIN terhadap kepuasan Karyawan PT. Mandala
+          Multifinance, Tbk dengan framework Customer Satisfaction index (CSI).
+          Melakukan survey terhadap tingkat kepuasan pelanggan atas
+          keseluruhan dengan mempertahankan tingkat kepentingan dari suatu
+          pelayanan.
+        </p>
+      </section>
+
+      <!-- PENGALAMAN -->
+      <section class="card section" id="pengalaman">
+        <h2 class="section-title"><i data-lucide="briefcase"></i> PENGALAMAN</h2>
+        <div class="experience-grid">
+          <article class="exp">
+            <span class="exp-date blue"><span class="dot"></span> November 2016 – Juli 2024</span>
+            <h3 class="exp-role">PT Mandala Multifinance, Tbk</h3>
+            <p class="exp-sub">Divisi Surveyor</p>
+            <ul class="checklist">
+              <li>Mengumpulkan informasi dan data pendukung yang diperlukan dari calon nasabah.</li>
+              <li>Melakukan verifikasi serta pengecekan kebenaran data dan informasi nasabah dan pihak ketiga.</li>
+              <li>Bertanggung jawab terhadap validitas dan kelengkapan dokumen.</li>
+              <li>Bertanggung jawab atas tercapainya target pencapaian services level standart (SLS).</li>
+              <li>Menjaga kualitas hasil survey (keakuratan data dan informasi) serta bertanggung jawab atas kebutuhan data dan informasi yang dibutuhkan credit analyst/komite kredit.</li>
+              <li>Bersikap Loyal dan Jujur terhadap hasil survey yang didapatkan dilapangan.</li>
+            </ul>
+          </article>
+          <article class="exp">
+            <span class="exp-date blue"><span class="dot"></span> Oktober 2024 – Sekarang</span>
+            <h3 class="exp-role">Astra Motor Penajam</h3>
+            <p class="exp-sub">Team Leader</p>
+            <ul class="checklist">
+              <li>Menyusun strategi dan jadwal untuk mencapai tujuan tim.</li>
+              <li>Memberikan instruksi yang jelas kepada anggota tim agar mereka memahami tugas dan tanggung jawabnya.</li>
+              <li>Membantu anggota tim menyelesaikan kendala yang ditemukan saat bekerja.</li>
+              <li>Mengembangkan kemampuan anggota tim dan membina kerja sama tim yang solid.</li>
+              <li>Menjaga keteraturan alur kerja dan produktivitas tim.</li>
+              <li>Membangun kepercayaan tim melalui transparansi dan konsistensi dalam setiap keputusan.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <div class="grid-2">
+        <!-- KEAHLIAN -->
+        <section class="card section" id="keahlian">
+          <h2 class="section-title"><i data-lucide="sparkles"></i> KEAHLIAN</h2>
+          <h4 class="skill-cat">Hard Skills</h4>
+          <div class="chips">
+            <span>HTML</span><span>CSS</span><span>Microsoft Office</span><span>Komputer & Jaringan</span>
+            <span>Electric & Electronic</span><span>Maintenance Skills</span>
+          </div>
+          <h4 class="skill-cat">Soft Skills</h4>
+          <div class="chips">
+            <span>Public Speaking</span><span>Leadership</span><span>Teamwork</span>
+            <span>Manajemen Waktu</span><span>Problem Solving</span>
+          </div>
+        </section>
+
+        <!-- TOOLS -->
+        <section class="card section">
+          <h2 class="section-title"><i data-lucide="wrench"></i> TOOLS &amp; SOFTWARE</h2>
+          <div class="tools">
+            <div class="tool"><div class="tool-ic white"><img src="assets/vs.png" alt="Visual Studio" onerror="this.onerror=null;this.src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg'"></div><span>Visual Studio</span></div>
+            <div class="tool"><div class="tool-ic white"><img src="assets/office.png" alt="Microsoft Office" onerror="this.onerror=null;this.src='https://upload.wikimedia.org/wikipedia/commons/5/5f/Microsoft_Office_logo_%282019%E2%80%93present%29.svg'"></div><span>Microsoft Office</span></div>
+            <div class="tool"><div class="tool-ic pcb"><i data-lucide="cpu"></i></div><span>PCB Wizard</span></div>
+            <div class="tool"><div class="tool-ic fl"><i data-lucide="music"></i></div><span>FL Studio</span></div>
+            <div class="tool"><div class="tool-ic gw"><img src="https://cdn.simpleicons.org/googledrive/ffffff" alt="Google Workspace"></div><span>Google Workspace</span></div>
+            <div class="tool"><div class="tool-ic gm"><img src="https://cdn.simpleicons.org/gmail/ffffff" alt="Gmail"></div><span>Gmail</span></div>
+            <div class="tool"><div class="tool-ic white"><img src="assets/canva.png" alt="Canva" onerror="this.onerror=null;this.src='https://upload.wikimedia.org/wikipedia/commons/0/08/Canva_icon_2021.svg'"></div><span>Canva</span></div>
+            <div class="tool"><div class="tool-ic zm"><img src="https://cdn.simpleicons.org/zoom/ffffff" alt="Zoom"></div><span>Zoom</span></div>
+            <div class="tool"><div class="tool-ic gt"><img src="https://cdn.simpleicons.org/googlemeet/ffffff" alt="Google Meet"></div><span>Google Meet</span></div>
+            <div class="tool"><div class="tool-ic gs"><img src="https://cdn.simpleicons.org/googlesheets/ffffff" alt="Google Sheets"></div><span>Google Sheets</span></div>
+          </div>
+        </section>
+      </div>
+
+      <!-- SERTIFIKASI -->
+      <section class="card section" id="sertifikasi">
+          <h2 class="section-title"><i data-lucide="award"></i> SERTIFIKASI &amp; PELATIHAN</h2>
+        <ul class="cert-list">
+          <li><i data-lucide="badge-check"></i><span>Sertifikasi Pelatihan Komputer , Hersa Jaya Mandiri Balikpapan</span><em>April 2015</em></li>
+          <li><i data-lucide="badge-check"></i><span>Sertifikasi Kompetensi , LG Elektronik Balikpapan</span><em>Maret 2016</em></li>
+          <li><i data-lucide="badge-check"></i><span>Sertifikasi Pelatihan Uji Kompetensi , BNSP</span><em>Desember 2020</em></li>
+          <li><i data-lucide="badge-check"></i><span>Sertifikasi Pelatihan Operator Komputer Senior , BNSP</span><em>Juli 2021</em></li>
+          <li><i data-lucide="badge-check"></i><span>Sertifikasi Pelatihan HTML Dasar, CODEPOLITAN</span><em>Juli 2024</em></li>
+          <li><i data-lucide="badge-check"></i><span>Sertifikasi Pelatihan CSS Dasar, CODEPOLITAN</span><em>Juli 2024</em></li>
+        </ul>
+      </section>
+
+      <!-- PROYEK -->
+      <section class="card section" id="proyek">
+        <h2 class="section-title"><i data-lucide="folder-git-2"></i> PROYEK</h2>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-preview">
+              <iframe src="https://haeradi.github.io/web_finance" title="Web Finance" loading="lazy" sandbox="allow-scripts allow-same-origin"></iframe>
+              <div class="project-overlay">
+                <a href="https://haeradi.github.io/web_finance" target="_blank" rel="noopener" class="btn btn-cv">
+                  <i data-lucide="external-link"></i> Kunjungi Website
+                </a>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-head">
+                <h3 class="exp-role">My Website — Web Finance</h3>
+                <span class="project-link"><i data-lucide="link"></i> haeradi.github.io/web_finance</span>
+              </div>
+              <p class="exp-desc">
+                Website portofolio dan proyek pribadi yang menyajikan informasi
+                keuangan, analisis data, serta showcase pengalaman dan
+                keahlian. Dibangun dengan HTML, CSS, dan JavaScript.
+              </p>
+              <div class="chips">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span><span>GitHub Pages</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- KONTAK CTA -->
+      <section class="cta" id="kontak">
+        <div class="cta-left">
+          <div class="cta-icon"><i data-lucide="send"></i></div>
+          <div>
+            <h3>Tertarik untuk bekerja sama?</h3>
+            <p>Saya terbuka untuk peluang dan kolaborasi yang dapat memberikan dampak positif.</p>
+          </div>
+        </div>
+        <div class="cta-right">
+          <a href="mailto:abdulradi17@gmail.com" class="btn btn-outline"><i data-lucide="mail"></i> abdulradi17@gmail.com</a>
+          <a href="tel:085820133306" class="btn btn-outline"><i data-lucide="phone"></i> 085820133306</a>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Abdul Rahmadan Haeradi — Built with HTML, CSS, &amp; JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
